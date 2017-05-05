@@ -1,1 +1,2 @@
+#!/bin/bash
 emacs -q --no-splash -f tetris
