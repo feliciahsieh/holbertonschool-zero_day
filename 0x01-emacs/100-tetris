@@ -1,2 +1,2 @@
 #!/bin/bash
-emacs -qf tetris
+emacs -f tetris
