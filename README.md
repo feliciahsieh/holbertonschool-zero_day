@@ -7,4 +7,3 @@
         mandatory
       </span>
 </h4><p>Ssh into your Ubuntu VM. What does the command <code>uname</code> prints when you run it without any option?</p>
-
