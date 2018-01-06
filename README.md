@@ -20,7 +20,7 @@
       <script src="/assets/application-0645436de39f64f36ac663efe179288811b253d9013464861bf8f1cccda53b42.js"></script>
         <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.ico" />
 	  <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="7G8nZ7ga1aKW7cw1d5CQOkigWeWJgkvSV9xfRo4XYXQWV5myXewzSRtnYFJ5+c7tft8PwVUG7gOhMjnCpKfDzw==" />
+<meta name="csrf-token" content="oxb5zoAL3cV6QXbvSypjkTa0Ok+3gp3iFRxq29LGM+BZLkcbZf07LvfL2ohFQz1GAMtsa2sGODPj8gxf+HaRWw==" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -234,9 +234,9 @@
       <article class="">
 
         
-<h1 class="gap">0x01. Emacs</h1>
+<h1 class="gap">0x03. Git</h1>
 
-<div id="project_id" style="display: none" data-project-id="206"></div>
+<div id="project_id" style="display: none" data-project-id="1"></div>
 
 <p class="sm-gap">
   <small>
@@ -248,7 +248,7 @@
   <p>
     <em>
       <small>
-        <i class="fa fa-user"></i> by Julien Barbier, co-founder at Holberton School
+        <i class="fa fa-user"></i> by Guillaume, Full stack engineer
       </small>
     </em>
   </p>
@@ -267,7 +267,7 @@
     <small>
       <i class="fa fa-calendar"></i>
         Project over - took place from 05-01-2017 to 05-02-2017
-        - <span id="student_task_done_percentage">you're 200</span>% done.
+        - <span id="student_task_done_percentage">you're 150</span>% done.
     </small>
   </p>
 
@@ -284,10 +284,20 @@
 <article id="description" class="gap formatted-content">
   <h2>Readme</h2>
 
-<p>Read the page <a href="/rltoken/i0rSCxE0TwjO7ns-SS2m8A" title="A Guided Tour of Emacs" target="_blank">A Guided Tour of Emacs</a> from the GNU, and go through the Emacs tutorial: Open emacs by typing <code>emacs</code> in your shell. Then type <code>C-h t</code>* to open the tutorial and go through it.</p>
+<p>Read:</p>
 
 <ul>
-<li><i>* <code>C-h t</code> means hold the <code>CONTROL</code> key while typing the character <code>h</code> and then type <code>t</code>.</i></li>
+<li><a href="/rltoken/iVJv3-O_BGNiwL3wBcB_Xg" title="Source code management" target="_blank">Source code management</a></li>
+<li><a href="/rltoken/GjdzrUfX65qa-2NGNBKBOQ" title="Git and Github cheat sheet" target="_blank">Git and Github cheat sheet</a></li>
+<li><a href="/rltoken/R0sxgBfnnSyXN2raCOn3ZQ" title="Play with Git" target="_blank">Play with Git</a> </li>
+</ul>
+
+<p>Advanced: <strong>Only if you are done with all mandatory tasks</strong></p>
+
+<ul>
+<li><a href="/rltoken/uwZO2XMVvhQgo9LtbNdWOQ" title="Elaine" target="_blank">Elaine</a>&lsquo;s <a href="/rltoken/zn1fK_4dvc97hkliWUba8Q" title="Guidelines for the Github rookie - .gitignore" target="_blank">Guidelines for the Github rookie - .gitignore</a>.</li>
+<li><a href="/rltoken/xROYUnxb4DZ7BCc0FOmt_Q" title="Learning branching" target="_blank">Learning branching</a></li>
+<li><a href="/rltoken/UFKVHHtOb41D8RL0VBth_g" title="Effective pull requests and other good practices for teams using Github" target="_blank">Effective pull requests and other good practices for teams using Github</a></li>
 </ul>
 
 <h2>What you should learn from this project</h2>
@@ -295,40 +305,49 @@
 <p>At the end of this project you are expected to be able to explain to anyone, <strong>without the help of Google</strong>:</p>
 
 <ul>
-<li>What is Emacs</li>
-<li>Who is Richard Stallman</li>
-<li>The basic Emacs commands
-
-<ul>
-<li>Opening and saving files</li>
-<li>What is a buffer and how to switch from one to the other</li>
-<li>Using the mark and the point to set the region</li>
-<li>Cutting and pasting lines and regions</li>
-<li>Searching forward and backward</li>
-<li>Invoking commands by name</li>
-<li>Undo</li>
-<li>Cancelling half-entered commands</li>
-<li>Quitting</li>
-</ul></li>
+<li>What is source code management</li>
+<li>What is Git</li>
+<li>How to create a repository</li>
+<li>How to commit</li>
+<li>How to push code</li>
+<li>How to create a branch</li>
+<li>How to pull updates</li>
+<li>How to merge branches</li>
+<li>How to work as collaborators on a project</li>
+<li>What is GitHub?</li>
+<li>What is the difference between Git and GitHub</li>
+<li>How to write helpful commit messages</li>
+<li>Which files should and which files should not appear in your repo</li>
 </ul>
 
 <h2>Requirements</h2>
 
 <ul>
-<li>If Emacs is not installed on the VM, you can use this command to install it: <code>sudo apt-get update; sudo apt-get install emacs</code></li>
-<li>Allowed editors: Emacs</li>
+<li>If <code>git</code> is not installed on your VM, you can use the command <code>sudo apt-get update; sudo apt-get install git</code> to install it</li>
 <li>A <code>README.md</code> file, at the root of the folder of the project, describing what this project is about</li>
-<li>Each answer should be written in a file with the same syntax as Emacs&rsquo;s documentation (ex: <code>C-h t</code>)</li>
+<li><strong>Do not use GitHub&rsquo;s web UI</strong>, but the command line to perform the exercise (except for operations that can not possibly be done any other way than through the web UI). You won&rsquo;t be able to perform half of the requirements on the web UI, and you really want to start getting used to the command line for the simple bits, before having to switch to it to do the complicated ones.</li>
 <li>Your file should only contain the command, and nothing else</li>
 </ul>
 
-<h2>Install <code>emacs</code></h2>
+<h2>Install <code>git</code></h2>
 
-<p>In your terminal:</p>
+<p><strong>Only if it&rsquo;s not installed yet</strong>
+In your terminal:</p>
 
 <pre><code>$ sudo apt-get update
 $ sudo apt-get upgrade
-$ sudo apt-get install emacs
+$ sudo apt-get install git
+</code></pre>
+
+<h2>Basic usage</h2>
+
+<p>At the end of the day, you should be able to reproduce and understand these command lines:</p>
+
+<pre><code>$ git clone &lt;repo&gt;
+$ touch test
+$ git add test
+$ git commit -m &quot;Initial commit&quot;
+$ git push origin master
 </code></pre>
 
 </article>
@@ -338,14 +357,14 @@ $ sudo apt-get install emacs
     <hr class="gap">
     <h2 class="gap">Tasks</h2>
     <section class="formatted-content">
-          <div data-role="task799" data-position="1">
-              <div class=" clearfix gap" id="task-799">
+          <div data-role="task32" data-position="5">
+              <div class=" clearfix gap" id="task-32">
 <span id="user_id" data-id="214"></span>
 
     <div class="student_task_controls">
 
       <!-- button Done -->
-        <button class="student_task_done btn btn-default yes" data-task-id="799">
+        <button class="student_task_done btn btn-default yes" data-task-id="32">
           <span class="no"><i class="fa fa-square-o"></i></span>
           <span class="yes"><i class="fa fa-check-square-o"></i></span>
           <span class="pending"><i class="fa fa-spinner fa-pulse"></i></span>
@@ -354,15 +373,15 @@ $ sudo apt-get install emacs
         <br>
 
       <!-- button Help! -->
-      <button class="users_done_for_task btn btn-default btn-default" data-task-id="799" data-project-id="206" data-toggle="modal" data-target="#task-799-users-done-modal">
+      <button class="users_done_for_task btn btn-default btn-default" data-task-id="32" data-project-id="1" data-toggle="modal" data-target="#task-32-users-done-modal">
         Help
       </button>
-      <div class="modal fade users-done-modal" id="task-799-users-done-modal" data-task-id="799" data-project-id="206">
+      <div class="modal fade users-done-modal" id="task-32-users-done-modal" data-task-id="32" data-project-id="1">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title">Students who are done with "Opening"</h4>
+              <h4 class="modal-title">Students who are done with "Create and setup your Git and Github account"</h4>
             </div>
             <div class="modal-body">
               <div class="list-group">
@@ -381,7 +400,7 @@ $ sudo apt-get install emacs
     </div>
 
   <h4 class="task">
-    0. Opening
+    0. Create and setup your Git and Github account
       <span class="alert alert-warning mandatory-optional">
         mandatory
       </span>
@@ -389,7 +408,7 @@ $ sudo apt-get install emacs
 
 
   <!-- Progress vs Score -->
-    <div class="task_progress_score_bar" data-task-id="799" data-correction-id="9920">
+    <div class="task_progress_score_bar" data-task-id="32" data-correction-id="9962">
       <div class="task_progress_bar">
         <div class="task_score_bar">
         </div>
@@ -400,7 +419,40 @@ $ sudo apt-get install emacs
     </div>
 
 <!-- Task Body -->
-  <p>What is the command to open a file from within Emacs?</p>
+  <p>Git is installed on your iMac provided by Holberton, but if you&rsquo;re using another computer, you might have to <a href="/rltoken/n2SJyaVuu1tuhVgHSKw5Sg" title="install it" target="_blank">install it</a> yourself.</p>
+
+<ul>
+<li>As a Holberton School student, you are eligible to get a GitHub student developer pack, with some nice goodies. Get you pack here: <a href="/rltoken/dKUO2Nc6zsvQaH-RoDqs1w" title="https://education.github.com/pack" target="_blank">https://education.github.com/pack</a></li>
+<li>Configure the basics you need on your local account that will be part of your commits: your name, your email. <a href="/rltoken/WCZwvMlDTWNwo7D2h5RXiw" title="Tips" target="_blank">Tips</a></li>
+</ul>
+
+<p>In Github.com:</p>
+
+<ul>
+<li>Create your first repository (please use the graphical interface)
+
+<ul>
+<li>name: <code>my_first_repository</code></li>
+<li>description: <code>I&#39;m now a Holberton Student, it&#39;s my first repository as a full-stack engineer</code></li>
+<li>public</li>
+<li>no Readme, .gitignore or license</li>
+</ul></li>
+</ul>
+
+<p>In your computer, open a terminal to:</p>
+
+<ul>
+<li>navigate to your home/login directory. <a href="/rltoken/nSl91LBC_er1QmayRs60Rg" title="Tips" target="_blank">Tips</a></li>
+<li>create a directory <code>my_first_repository</code>. <a href="/rltoken/qE0DHC3e86f7eZF6mlqFyQ" title="Tips" target="_blank">Tips</a></li>
+<li>navigate to this new directory. <a href="/rltoken/AwnQVywazMoVHb1fj85DAw" title="Tips" target="_blank">Tips</a></li>
+<li>initialize git and add the remote origin</li>
+<li>create a file <code>README.md</code> with Emacs (or other command line editors) and write a small <a href="/rltoken/3ZODVIGFqknARuxa8HXC7A" title="Markdown" target="_blank">Markdown</a> text to present this project. <strong>This file is mandatory in all Holberton School projects</strong></li>
+<li>add this new file to git, commit the change with this message &ldquo;My first commit&rdquo; and push to the remote server / origin (you will probably need to set your login/password to push to the remote server)</li>
+</ul>
+
+<p>Good job! </p>
+
+<p>You did your <strong>push</strong> in your <strong>first repository</strong> of your <strong>first task</strong> of your <strong>first Holberton School project</strong>.</p>
 
 
   <!-- Task URLs -->
@@ -408,9 +460,8 @@ $ sudo apt-get install emacs
   <!-- Github information -->
     <p class="sm-gap"><strong>Repo:</strong></p>
     <ul>
-      <li>GitHub repository: <code>holbertonschool-zero_day</code></li>
-        <li>Directory: <code>0x01-emacs</code></li>
-        <li>File: <code>0-opening</code></li>
+      <li>GitHub repository: <code>my_first_repository</code></li>
+        <li>File: <code>README.md</code></li>
     </ul>
 
 
@@ -418,20 +469,20 @@ $ sudo apt-get install emacs
   <div class="student_correction_requests">
 
     <!-- Button test code -->
-      <button class="task_correction_modal btn btn-default " data-task-id="799" data-toggle="modal" data-target="#task-test-correction-799-correction-modal">
+      <button class="task_correction_modal btn btn-default " data-task-id="32" data-toggle="modal" data-target="#task-test-correction-32-correction-modal">
         Check your code?
       </button>
-      <div class="modal fade task_correction_modal" id="task-test-correction-799-correction-modal">
+      <div class="modal fade task_correction_modal" id="task-test-correction-32-correction-modal">
       <div class="modal-dialog">
           <div class="modal-content">
           <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title">Correction of "Opening"</h4>
+              <h4 class="modal-title">Correction of "Create and setup your Git and Github account"</h4>
           </div>
           <div class="modal-body">
             <div class="actions">
                 <center>
-                    <input type="submit" name="commit" value="Start a new test" class="btn btn-primary correction_request_test_admin" data-task-id="799" />
+                    <input type="submit" name="commit" value="Start a new test" class="btn btn-primary correction_request_test_admin" data-task-id="32" />
                     <div class="spinner" >
                         <div class="bounce1"></div>
                         <div class="bounce2"></div>
@@ -456,14 +507,14 @@ $ sudo apt-get install emacs
 </div>
 
           </div>
-          <div data-role="task800" data-position="2">
-              <div class=" clearfix gap" id="task-800">
+          <div data-role="task742" data-position="6">
+              <div class=" clearfix gap" id="task-742">
 <span id="user_id" data-id="214"></span>
 
     <div class="student_task_controls">
 
       <!-- button Done -->
-        <button class="student_task_done btn btn-default yes" data-task-id="800">
+        <button class="student_task_done btn btn-default yes" data-task-id="742">
           <span class="no"><i class="fa fa-square-o"></i></span>
           <span class="yes"><i class="fa fa-check-square-o"></i></span>
           <span class="pending"><i class="fa fa-spinner fa-pulse"></i></span>
@@ -472,15 +523,15 @@ $ sudo apt-get install emacs
         <br>
 
       <!-- button Help! -->
-      <button class="users_done_for_task btn btn-default btn-default" data-task-id="800" data-project-id="206" data-toggle="modal" data-target="#task-800-users-done-modal">
+      <button class="users_done_for_task btn btn-default btn-default" data-task-id="742" data-project-id="1" data-toggle="modal" data-target="#task-742-users-done-modal">
         Help
       </button>
-      <div class="modal fade users-done-modal" id="task-800-users-done-modal" data-task-id="800" data-project-id="206">
+      <div class="modal fade users-done-modal" id="task-742-users-done-modal" data-task-id="742" data-project-id="1">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title">Students who are done with "Saving"</h4>
+              <h4 class="modal-title">Students who are done with "Coding fury road"</h4>
             </div>
             <div class="modal-body">
               <div class="list-group">
@@ -499,7 +550,7 @@ $ sudo apt-get install emacs
     </div>
 
   <h4 class="task">
-    1. Saving
+    1. Coding fury road
       <span class="alert alert-warning mandatory-optional">
         mandatory
       </span>
@@ -507,7 +558,7 @@ $ sudo apt-get install emacs
 
 
   <!-- Progress vs Score -->
-    <div class="task_progress_score_bar" data-task-id="800" data-correction-id="9920">
+    <div class="task_progress_score_bar" data-task-id="742" data-correction-id="9962">
       <div class="task_progress_bar">
         <div class="task_score_bar">
         </div>
@@ -518,7 +569,22 @@ $ sudo apt-get install emacs
     </div>
 
 <!-- Task Body -->
-  <p>What is the command to save a file?</p>
+  <p>For the moment we have an empty project, only the description with the <code>README.md</code>, it&rsquo;s time to code!</p>
+
+<ul>
+<li>create these directories at the root of your project: <code>bash</code>, <code>c</code>, <code>js</code> </li>
+<li>create empty files:
+
+<ul>
+<li><code>c/c_is_fun.c</code></li>
+<li><code>js/main.js</code></li>
+<li><code>js/index.js</code></li>
+</ul></li>
+<li>create a file <code>bash/holberton</code> with inside these two lines: <code>#!/bin/bash</code> and <code>echo &quot;Holberton&quot;</code></li>
+<li>create a file <code>bash/school</code> with inside these two lines: <code>#!/bin/bash</code> and <code>echo &quot;School&quot;</code> </li>
+<li>add all these new files to git</li>
+<li>commit your changes (message: &ldquo;I&rsquo;m starting to code, so cool&rdquo;) and push to the remote server</li>
+</ul>
 
 
   <!-- Task URLs -->
@@ -526,9 +592,8 @@ $ sudo apt-get install emacs
   <!-- Github information -->
     <p class="sm-gap"><strong>Repo:</strong></p>
     <ul>
-      <li>GitHub repository: <code>holbertonschool-zero_day</code></li>
-        <li>Directory: <code>0x01-emacs</code></li>
-        <li>File: <code>1-saving</code></li>
+      <li>GitHub repository: <code>my_first_repository</code></li>
+        <li>File: <code>bash/holberton, bash/school, c/c_is_fun.c, js/main.js, js/index.js</code></li>
     </ul>
 
 
@@ -536,20 +601,20 @@ $ sudo apt-get install emacs
   <div class="student_correction_requests">
 
     <!-- Button test code -->
-      <button class="task_correction_modal btn btn-default " data-task-id="800" data-toggle="modal" data-target="#task-test-correction-800-correction-modal">
+      <button class="task_correction_modal btn btn-default " data-task-id="742" data-toggle="modal" data-target="#task-test-correction-742-correction-modal">
         Check your code?
       </button>
-      <div class="modal fade task_correction_modal" id="task-test-correction-800-correction-modal">
+      <div class="modal fade task_correction_modal" id="task-test-correction-742-correction-modal">
       <div class="modal-dialog">
           <div class="modal-content">
           <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title">Correction of "Saving"</h4>
+              <h4 class="modal-title">Correction of "Coding fury road"</h4>
           </div>
           <div class="modal-body">
             <div class="actions">
                 <center>
-                    <input type="submit" name="commit" value="Start a new test" class="btn btn-primary correction_request_test_admin" data-task-id="800" />
+                    <input type="submit" name="commit" value="Start a new test" class="btn btn-primary correction_request_test_admin" data-task-id="742" />
                     <div class="spinner" >
                         <div class="bounce1"></div>
                         <div class="bounce2"></div>
@@ -574,14 +639,14 @@ $ sudo apt-get install emacs
 </div>
 
           </div>
-          <div data-role="task801" data-position="3">
-              <div class=" clearfix gap" id="task-801">
+          <div data-role="task743" data-position="7">
+              <div class=" clearfix gap" id="task-743">
 <span id="user_id" data-id="214"></span>
 
     <div class="student_task_controls">
 
       <!-- button Done -->
-        <button class="student_task_done btn btn-default yes" data-task-id="801">
+        <button class="student_task_done btn btn-default yes" data-task-id="743">
           <span class="no"><i class="fa fa-square-o"></i></span>
           <span class="yes"><i class="fa fa-check-square-o"></i></span>
           <span class="pending"><i class="fa fa-spinner fa-pulse"></i></span>
@@ -590,15 +655,15 @@ $ sudo apt-get install emacs
         <br>
 
       <!-- button Help! -->
-      <button class="users_done_for_task btn btn-default btn-default" data-task-id="801" data-project-id="206" data-toggle="modal" data-target="#task-801-users-done-modal">
+      <button class="users_done_for_task btn btn-default btn-default" data-task-id="743" data-project-id="1" data-toggle="modal" data-target="#task-743-users-done-modal">
         Help
       </button>
-      <div class="modal fade users-done-modal" id="task-801-users-done-modal" data-task-id="801" data-project-id="206">
+      <div class="modal fade users-done-modal" id="task-743-users-done-modal" data-task-id="743" data-project-id="1">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title">Students who are done with "Cutting"</h4>
+              <h4 class="modal-title">Students who are done with "Collaboration is the base of a company"</h4>
             </div>
             <div class="modal-body">
               <div class="list-group">
@@ -617,7 +682,7 @@ $ sudo apt-get install emacs
     </div>
 
   <h4 class="task">
-    2. Cutting
+    2. Collaboration is the base of a company
       <span class="alert alert-warning mandatory-optional">
         mandatory
       </span>
@@ -625,7 +690,7 @@ $ sudo apt-get install emacs
 
 
   <!-- Progress vs Score -->
-    <div class="task_progress_score_bar" data-task-id="801" data-correction-id="9920">
+    <div class="task_progress_score_bar" data-task-id="743" data-correction-id="9962">
       <div class="task_progress_bar">
         <div class="task_score_bar">
         </div>
@@ -636,7 +701,39 @@ $ sudo apt-get install emacs
     </div>
 
 <!-- Task Body -->
-  <p>What is the command to cut an entire line?</p>
+  <p>A branch is like a copy of your project. It&rsquo;s used mainly for:</p>
+
+<ul>
+<li>to not breaking your repository</li>
+<li>to add a feature in development</li>
+<li>collaboration on the same project with someone else</li>
+<li>to not upset your co-worker</li>
+</ul>
+
+<p>The goal of a branch is to isolate your work with the main code of your project or with coworker&rsquo;s work.</p>
+
+<p>For your first project, you will create a branch <code>update_script</code> and in this branch you will:</p>
+
+<ul>
+<li>create an empty file <code>bash/98</code></li>
+<li>update <code>bash/holberton</code> by replacing <code>echo &quot;Holberton&quot;</code> by <code>echo &quot;Holberton School&quot;</code></li>
+<li>update <code>bash/school</code> by replacing <code>echo &quot;School&quot;</code> by <code>echo &quot;The school is open!&quot;</code></li>
+<li>add and commit these changes (message: &ldquo;My personal work&rdquo;)</li>
+<li>push this new branch. <a href="/rltoken/DUQcoJJ7Lowt4sieJqVEdg" title="Tips" target="_blank">Tips</a></li>
+</ul>
+
+<p>Perfect! you did an amazing update in your project and it&rsquo;s isolated correctly from the <strong>master</strong> branch. </p>
+
+<p>Ho wait, your manager needs a quick fix in your project and it should be deployed now:</p>
+
+<ul>
+<li>change branch to <code>master</code></li>
+<li>update the file <code>bash/holberton</code> by replacing <code>echo &quot;Holberton&quot;</code> by <code>echo &quot;Holberton School is so cool!&quot;</code></li>
+<li>delete the directory <code>js</code></li>
+<li>commit your changes (message: &ldquo;Hot fix&rdquo;) and push to the origin</li>
+</ul>
+
+<p>Ouf, hot fix is done!</p>
 
 
   <!-- Task URLs -->
@@ -644,9 +741,8 @@ $ sudo apt-get install emacs
   <!-- Github information -->
     <p class="sm-gap"><strong>Repo:</strong></p>
     <ul>
-      <li>GitHub repository: <code>holbertonschool-zero_day</code></li>
-        <li>Directory: <code>0x01-emacs</code></li>
-        <li>File: <code>2-cutting</code></li>
+      <li>GitHub repository: <code>my_first_repository</code></li>
+        <li>File: <code>bash/holberton, bash/school, bash/98</code></li>
     </ul>
 
 
@@ -654,20 +750,20 @@ $ sudo apt-get install emacs
   <div class="student_correction_requests">
 
     <!-- Button test code -->
-      <button class="task_correction_modal btn btn-default " data-task-id="801" data-toggle="modal" data-target="#task-test-correction-801-correction-modal">
+      <button class="task_correction_modal btn btn-default " data-task-id="743" data-toggle="modal" data-target="#task-test-correction-743-correction-modal">
         Check your code?
       </button>
-      <div class="modal fade task_correction_modal" id="task-test-correction-801-correction-modal">
+      <div class="modal fade task_correction_modal" id="task-test-correction-743-correction-modal">
       <div class="modal-dialog">
           <div class="modal-content">
           <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title">Correction of "Cutting"</h4>
+              <h4 class="modal-title">Correction of "Collaboration is the base of a company"</h4>
           </div>
           <div class="modal-body">
             <div class="actions">
                 <center>
-                    <input type="submit" name="commit" value="Start a new test" class="btn btn-primary correction_request_test_admin" data-task-id="801" />
+                    <input type="submit" name="commit" value="Start a new test" class="btn btn-primary correction_request_test_admin" data-task-id="743" />
                     <div class="spinner" >
                         <div class="bounce1"></div>
                         <div class="bounce2"></div>
@@ -692,14 +788,14 @@ $ sudo apt-get install emacs
 </div>
 
           </div>
-          <div data-role="task802" data-position="4">
-              <div class=" clearfix gap" id="task-802">
+          <div data-role="task744" data-position="7">
+              <div class=" clearfix gap" id="task-744">
 <span id="user_id" data-id="214"></span>
 
     <div class="student_task_controls">
 
       <!-- button Done -->
-        <button class="student_task_done btn btn-default yes" data-task-id="802">
+        <button class="student_task_done btn btn-default yes" data-task-id="744">
           <span class="no"><i class="fa fa-square-o"></i></span>
           <span class="yes"><i class="fa fa-check-square-o"></i></span>
           <span class="pending"><i class="fa fa-spinner fa-pulse"></i></span>
@@ -708,15 +804,15 @@ $ sudo apt-get install emacs
         <br>
 
       <!-- button Help! -->
-      <button class="users_done_for_task btn btn-default btn-default" data-task-id="802" data-project-id="206" data-toggle="modal" data-target="#task-802-users-done-modal">
+      <button class="users_done_for_task btn btn-default btn-default" data-task-id="744" data-project-id="1" data-toggle="modal" data-target="#task-744-users-done-modal">
         Help
       </button>
-      <div class="modal fade users-done-modal" id="task-802-users-done-modal" data-task-id="802" data-project-id="206">
+      <div class="modal fade users-done-modal" id="task-744-users-done-modal" data-task-id="744" data-project-id="1">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title">Students who are done with "Pasting"</h4>
+              <h4 class="modal-title">Students who are done with "Collaboration: be up to date"</h4>
             </div>
             <div class="modal-body">
               <div class="list-group">
@@ -735,7 +831,7 @@ $ sudo apt-get install emacs
     </div>
 
   <h4 class="task">
-    3. Pasting
+    3. Collaboration: be up to date
       <span class="alert alert-warning mandatory-optional">
         mandatory
       </span>
@@ -743,7 +839,7 @@ $ sudo apt-get install emacs
 
 
   <!-- Progress vs Score -->
-    <div class="task_progress_score_bar" data-task-id="802" data-correction-id="9920">
+    <div class="task_progress_score_bar" data-task-id="744" data-correction-id="9962">
       <div class="task_progress_bar">
         <div class="task_score_bar">
         </div>
@@ -754,7 +850,17 @@ $ sudo apt-get install emacs
     </div>
 
 <!-- Task Body -->
-  <p>What is the command to paste?</p>
+  <p>Of course, you can also work on the same branch as your co-workers and it&rsquo;s better for you to be up to date with their changes.</p>
+
+<p>For this task, <strong>and only for this task</strong>, please update your file <code>README.md</code> in the master branch from Github.com. It&rsquo;s the <strong>only time</strong> you are allowed to update and commit from Github interface.</p>
+
+<p>When it&rsquo;s done, in your terminal:</p>
+
+<ul>
+<li>get locally all changes of the master branch (your <code>README.md</code> file will be updated)</li>
+<li>write in a file <code>up_to_date</code> (at the root of your repository) the git command line used</li>
+<li>add this new file <code>up_to_date</code>, commit (message: &ldquo;How to be up to date in git&rdquo;) and push to the origin</li>
+</ul>
 
 
   <!-- Task URLs -->
@@ -762,9 +868,8 @@ $ sudo apt-get install emacs
   <!-- Github information -->
     <p class="sm-gap"><strong>Repo:</strong></p>
     <ul>
-      <li>GitHub repository: <code>holbertonschool-zero_day</code></li>
-        <li>Directory: <code>0x01-emacs</code></li>
-        <li>File: <code>3-pasting</code></li>
+      <li>GitHub repository: <code>my_first_repository</code></li>
+        <li>File: <code>README.md, up_to_date</code></li>
     </ul>
 
 
@@ -772,20 +877,20 @@ $ sudo apt-get install emacs
   <div class="student_correction_requests">
 
     <!-- Button test code -->
-      <button class="task_correction_modal btn btn-default " data-task-id="802" data-toggle="modal" data-target="#task-test-correction-802-correction-modal">
+      <button class="task_correction_modal btn btn-default " data-task-id="744" data-toggle="modal" data-target="#task-test-correction-744-correction-modal">
         Check your code?
       </button>
-      <div class="modal fade task_correction_modal" id="task-test-correction-802-correction-modal">
+      <div class="modal fade task_correction_modal" id="task-test-correction-744-correction-modal">
       <div class="modal-dialog">
           <div class="modal-content">
           <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title">Correction of "Pasting"</h4>
+              <h4 class="modal-title">Correction of "Collaboration: be up to date"</h4>
           </div>
           <div class="modal-body">
             <div class="actions">
                 <center>
-                    <input type="submit" name="commit" value="Start a new test" class="btn btn-primary correction_request_test_admin" data-task-id="802" />
+                    <input type="submit" name="commit" value="Start a new test" class="btn btn-primary correction_request_test_admin" data-task-id="744" />
                     <div class="spinner" >
                         <div class="bounce1"></div>
                         <div class="bounce2"></div>
@@ -810,14 +915,14 @@ $ sudo apt-get install emacs
 </div>
 
           </div>
-          <div data-role="task803" data-position="4">
-              <div class=" clearfix gap" id="task-803">
+          <div data-role="task745" data-position="8">
+              <div class=" clearfix gap" id="task-745">
 <span id="user_id" data-id="214"></span>
 
     <div class="student_task_controls">
 
       <!-- button Done -->
-        <button class="student_task_done btn btn-default yes" data-task-id="803">
+        <button class="student_task_done btn btn-default no" data-task-id="745">
           <span class="no"><i class="fa fa-square-o"></i></span>
           <span class="yes"><i class="fa fa-check-square-o"></i></span>
           <span class="pending"><i class="fa fa-spinner fa-pulse"></i></span>
@@ -826,15 +931,15 @@ $ sudo apt-get install emacs
         <br>
 
       <!-- button Help! -->
-      <button class="users_done_for_task btn btn-default btn-default" data-task-id="803" data-project-id="206" data-toggle="modal" data-target="#task-803-users-done-modal">
+      <button class="users_done_for_task btn btn-default btn-default" data-task-id="745" data-project-id="1" data-toggle="modal" data-target="#task-745-users-done-modal">
         Help
       </button>
-      <div class="modal fade users-done-modal" id="task-803-users-done-modal" data-task-id="803" data-project-id="206">
+      <div class="modal fade users-done-modal" id="task-745-users-done-modal" data-task-id="745" data-project-id="1">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title">Students who are done with "Searching"</h4>
+              <h4 class="modal-title">Students who are done with "HAAA what did you do???"</h4>
             </div>
             <div class="modal-body">
               <div class="list-group">
@@ -853,361 +958,7 @@ $ sudo apt-get install emacs
     </div>
 
   <h4 class="task">
-    4. Searching
-      <span class="alert alert-warning mandatory-optional">
-        mandatory
-      </span>
-  </h4>
-
-
-  <!-- Progress vs Score -->
-    <div class="task_progress_score_bar" data-task-id="803" data-correction-id="9920">
-      <div class="task_progress_bar">
-        <div class="task_score_bar">
-        </div>
-      </div>
-      <div class="task_progress_score_text">
-        Score: <span class="task_score_value">0%</span> (<span class="task_progress_value">completion score: 0%</span>)
-      </div>
-    </div>
-
-<!-- Task Body -->
-  <p>What is the command to search forward?</p>
-
-
-  <!-- Task URLs -->
-
-  <!-- Github information -->
-    <p class="sm-gap"><strong>Repo:</strong></p>
-    <ul>
-      <li>GitHub repository: <code>holbertonschool-zero_day</code></li>
-        <li>Directory: <code>0x01-emacs</code></li>
-        <li>File: <code>4-searching</code></li>
-    </ul>
-
-
-
-  <div class="student_correction_requests">
-
-    <!-- Button test code -->
-      <button class="task_correction_modal btn btn-default " data-task-id="803" data-toggle="modal" data-target="#task-test-correction-803-correction-modal">
-        Check your code?
-      </button>
-      <div class="modal fade task_correction_modal" id="task-test-correction-803-correction-modal">
-      <div class="modal-dialog">
-          <div class="modal-content">
-          <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title">Correction of "Searching"</h4>
-          </div>
-          <div class="modal-body">
-            <div class="actions">
-                <center>
-                    <input type="submit" name="commit" value="Start a new test" class="btn btn-primary correction_request_test_admin" data-task-id="803" />
-                    <div class="spinner" >
-                        <div class="bounce1"></div>
-                        <div class="bounce2"></div>
-                        <div class="bounce3"></div>
-                    </div>
-                    <div class="error"></div>
-                    <div class="info"></div>
-                </center>
-            </div>
-            <div class="result"></div>
-          </div>
-          </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-      </div>
-
-
-    <!-- Button containers -->
-
-  </div>
-
-
-</div>
-
-          </div>
-          <div data-role="task804" data-position="5">
-              <div class=" clearfix gap" id="task-804">
-<span id="user_id" data-id="214"></span>
-
-    <div class="student_task_controls">
-
-      <!-- button Done -->
-        <button class="student_task_done btn btn-default yes" data-task-id="804">
-          <span class="no"><i class="fa fa-square-o"></i></span>
-          <span class="yes"><i class="fa fa-check-square-o"></i></span>
-          <span class="pending"><i class="fa fa-spinner fa-pulse"></i></span>
-          Done<span class="no pending">?</span><span class="yes">!</span>
-        </button>
-        <br>
-
-      <!-- button Help! -->
-      <button class="users_done_for_task btn btn-default btn-default" data-task-id="804" data-project-id="206" data-toggle="modal" data-target="#task-804-users-done-modal">
-        Help
-      </button>
-      <div class="modal fade users-done-modal" id="task-804-users-done-modal" data-task-id="804" data-project-id="206">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title">Students who are done with "Undoing"</h4>
-            </div>
-            <div class="modal-body">
-              <div class="list-group">
-              </div>
-              <div class="spinner" >
-                  <div class="bounce1"></div>
-                  <div class="bounce2"></div>
-                  <div class="bounce3"></div>
-              </div>
-              <div class="error"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-  <h4 class="task">
-    5. Undoing
-      <span class="alert alert-warning mandatory-optional">
-        mandatory
-      </span>
-  </h4>
-
-
-  <!-- Progress vs Score -->
-    <div class="task_progress_score_bar" data-task-id="804" data-correction-id="9920">
-      <div class="task_progress_bar">
-        <div class="task_score_bar">
-        </div>
-      </div>
-      <div class="task_progress_score_text">
-        Score: <span class="task_score_value">0%</span> (<span class="task_progress_value">completion score: 0%</span>)
-      </div>
-    </div>
-
-<!-- Task Body -->
-  <p>What is the command to undo?</p>
-
-
-  <!-- Task URLs -->
-
-  <!-- Github information -->
-    <p class="sm-gap"><strong>Repo:</strong></p>
-    <ul>
-      <li>GitHub repository: <code>holbertonschool-zero_day</code></li>
-        <li>Directory: <code>0x01-emacs</code></li>
-        <li>File: <code>5-undoing</code></li>
-    </ul>
-
-
-
-  <div class="student_correction_requests">
-
-    <!-- Button test code -->
-      <button class="task_correction_modal btn btn-default " data-task-id="804" data-toggle="modal" data-target="#task-test-correction-804-correction-modal">
-        Check your code?
-      </button>
-      <div class="modal fade task_correction_modal" id="task-test-correction-804-correction-modal">
-      <div class="modal-dialog">
-          <div class="modal-content">
-          <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title">Correction of "Undoing"</h4>
-          </div>
-          <div class="modal-body">
-            <div class="actions">
-                <center>
-                    <input type="submit" name="commit" value="Start a new test" class="btn btn-primary correction_request_test_admin" data-task-id="804" />
-                    <div class="spinner" >
-                        <div class="bounce1"></div>
-                        <div class="bounce2"></div>
-                        <div class="bounce3"></div>
-                    </div>
-                    <div class="error"></div>
-                    <div class="info"></div>
-                </center>
-            </div>
-            <div class="result"></div>
-          </div>
-          </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-      </div>
-
-
-    <!-- Button containers -->
-
-  </div>
-
-
-</div>
-
-          </div>
-          <div data-role="task805" data-position="6">
-              <div class=" clearfix gap" id="task-805">
-<span id="user_id" data-id="214"></span>
-
-    <div class="student_task_controls">
-
-      <!-- button Done -->
-        <button class="student_task_done btn btn-default yes" data-task-id="805">
-          <span class="no"><i class="fa fa-square-o"></i></span>
-          <span class="yes"><i class="fa fa-check-square-o"></i></span>
-          <span class="pending"><i class="fa fa-spinner fa-pulse"></i></span>
-          Done<span class="no pending">?</span><span class="yes">!</span>
-        </button>
-        <br>
-
-      <!-- button Help! -->
-      <button class="users_done_for_task btn btn-default btn-default" data-task-id="805" data-project-id="206" data-toggle="modal" data-target="#task-805-users-done-modal">
-        Help
-      </button>
-      <div class="modal fade users-done-modal" id="task-805-users-done-modal" data-task-id="805" data-project-id="206">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title">Students who are done with "Quitting"</h4>
-            </div>
-            <div class="modal-body">
-              <div class="list-group">
-              </div>
-              <div class="spinner" >
-                  <div class="bounce1"></div>
-                  <div class="bounce2"></div>
-                  <div class="bounce3"></div>
-              </div>
-              <div class="error"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-  <h4 class="task">
-    6. Quitting
-      <span class="alert alert-warning mandatory-optional">
-        mandatory
-      </span>
-  </h4>
-
-
-  <!-- Progress vs Score -->
-    <div class="task_progress_score_bar" data-task-id="805" data-correction-id="9920">
-      <div class="task_progress_bar">
-        <div class="task_score_bar">
-        </div>
-      </div>
-      <div class="task_progress_score_text">
-        Score: <span class="task_score_value">0%</span> (<span class="task_progress_value">completion score: 0%</span>)
-      </div>
-    </div>
-
-<!-- Task Body -->
-  <p>What is the command to quit Emacs?</p>
-
-
-  <!-- Task URLs -->
-
-  <!-- Github information -->
-    <p class="sm-gap"><strong>Repo:</strong></p>
-    <ul>
-      <li>GitHub repository: <code>holbertonschool-zero_day</code></li>
-        <li>Directory: <code>0x01-emacs</code></li>
-        <li>File: <code>6-quitting</code></li>
-    </ul>
-
-
-
-  <div class="student_correction_requests">
-
-    <!-- Button test code -->
-      <button class="task_correction_modal btn btn-default " data-task-id="805" data-toggle="modal" data-target="#task-test-correction-805-correction-modal">
-        Check your code?
-      </button>
-      <div class="modal fade task_correction_modal" id="task-test-correction-805-correction-modal">
-      <div class="modal-dialog">
-          <div class="modal-content">
-          <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title">Correction of "Quitting"</h4>
-          </div>
-          <div class="modal-body">
-            <div class="actions">
-                <center>
-                    <input type="submit" name="commit" value="Start a new test" class="btn btn-primary correction_request_test_admin" data-task-id="805" />
-                    <div class="spinner" >
-                        <div class="bounce1"></div>
-                        <div class="bounce2"></div>
-                        <div class="bounce3"></div>
-                    </div>
-                    <div class="error"></div>
-                    <div class="info"></div>
-                </center>
-            </div>
-            <div class="result"></div>
-          </div>
-          </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-      </div>
-
-
-    <!-- Button containers -->
-
-  </div>
-
-
-</div>
-
-          </div>
-          <div data-role="task806" data-position="7">
-              <div class=" clearfix gap" id="task-806">
-<span id="user_id" data-id="214"></span>
-
-    <div class="student_task_controls">
-
-      <!-- button Done -->
-        <button class="student_task_done btn btn-default yes" data-task-id="806">
-          <span class="no"><i class="fa fa-square-o"></i></span>
-          <span class="yes"><i class="fa fa-check-square-o"></i></span>
-          <span class="pending"><i class="fa fa-spinner fa-pulse"></i></span>
-          Done<span class="no pending">?</span><span class="yes">!</span>
-        </button>
-        <br>
-
-      <!-- button Help! -->
-      <button class="users_done_for_task btn btn-default btn-default" data-task-id="806" data-project-id="206" data-toggle="modal" data-target="#task-806-users-done-modal">
-        Help
-      </button>
-      <div class="modal fade users-done-modal" id="task-806-users-done-modal" data-task-id="806" data-project-id="206">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title">Students who are done with "Tetris"</h4>
-            </div>
-            <div class="modal-body">
-              <div class="list-group">
-              </div>
-              <div class="spinner" >
-                  <div class="bounce1"></div>
-                  <div class="bounce2"></div>
-                  <div class="bounce3"></div>
-              </div>
-              <div class="error"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-  <h4 class="task">
-    7. Tetris
+    4. HAAA what did you do???
       <span class="alert alert-info mandatory-optional">
         #advanced
       </span>
@@ -1215,7 +966,7 @@ $ sudo apt-get install emacs
 
 
   <!-- Progress vs Score -->
-    <div class="task_progress_score_bar" data-task-id="806" data-correction-id="9920">
+    <div class="task_progress_score_bar" data-task-id="745" data-correction-id="9962">
       <div class="task_progress_bar">
         <div class="task_score_bar">
         </div>
@@ -1226,7 +977,20 @@ $ sudo apt-get install emacs
     </div>
 
 <!-- Task Body -->
-  <p>What is the command to play Tetris inside Emacs?</p>
+  <p>Collaboration is cool, but not really when you update the same file at the same line&hellip;</p>
+
+<p>To illustrate that, please merge the branch <code>update_script</code> to <code>master</code>: &ldquo;Cool, all my changes will be now part of the main branch, ready to be deploy!&rdquo;</p>
+
+<p><strong>HHHHHHHAAAAAAAA</strong></p>
+
+<pre><code>CONFLICT (content): Merge conflict in bash/holberton
+</code></pre>
+
+<p>As you can see, you have conflits between you two branches on the same file.</p>
+
+<p>Your goal now is to resolve conflits by using the version of the branch <code>update_script</code>, and push the result to the origin.</p>
+
+<p>At the end, you will have all your work from the branch <code>update_script</code> (new file and update of 2 files) + all last <code>master</code> commits (new files, delete folder etc&hellip;) except for conflits.</p>
 
 
   <!-- Task URLs -->
@@ -1234,9 +998,7 @@ $ sudo apt-get install emacs
   <!-- Github information -->
     <p class="sm-gap"><strong>Repo:</strong></p>
     <ul>
-      <li>GitHub repository: <code>holbertonschool-zero_day</code></li>
-        <li>Directory: <code>0x01-emacs</code></li>
-        <li>File: <code>100-tetris</code></li>
+      <li>GitHub repository: <code>my_first_repository</code></li>
     </ul>
 
 
@@ -1244,20 +1006,20 @@ $ sudo apt-get install emacs
   <div class="student_correction_requests">
 
     <!-- Button test code -->
-      <button class="task_correction_modal btn btn-default " data-task-id="806" data-toggle="modal" data-target="#task-test-correction-806-correction-modal">
+      <button class="task_correction_modal btn btn-default size_two" data-task-id="745" data-toggle="modal" data-target="#task-test-correction-745-correction-modal">
         Check your code?
       </button>
-      <div class="modal fade task_correction_modal" id="task-test-correction-806-correction-modal">
+      <div class="modal fade task_correction_modal" id="task-test-correction-745-correction-modal">
       <div class="modal-dialog">
           <div class="modal-content">
           <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title">Correction of "Tetris"</h4>
+              <h4 class="modal-title">Correction of "HAAA what did you do???"</h4>
           </div>
           <div class="modal-body">
             <div class="actions">
                 <center>
-                    <input type="submit" name="commit" value="Start a new test" class="btn btn-primary correction_request_test_admin" data-task-id="806" />
+                    <input type="submit" name="commit" value="Start a new test" class="btn btn-primary correction_request_test_admin" data-task-id="745" />
                     <div class="spinner" >
                         <div class="bounce1"></div>
                         <div class="bounce2"></div>
@@ -1273,6 +1035,9 @@ $ sudo apt-get install emacs
       </div><!-- /.modal-dialog -->
       </div>
 
+      <button class="task_ask_new_correction btn btn-default size_two" data-task-id="745" data-correction-id="9962">
+        Ask a new correction <span class="in_progress_info">: in progress...</span><span class="error_occured_info">: An error occured</span>
+      </button>
 
     <!-- Button containers -->
 
@@ -1282,14 +1047,14 @@ $ sudo apt-get install emacs
 </div>
 
           </div>
-          <div data-role="task807" data-position="7">
-              <div class=" clearfix gap" id="task-807">
+          <div data-role="task746" data-position="9">
+              <div class=" clearfix gap" id="task-746">
 <span id="user_id" data-id="214"></span>
 
     <div class="student_task_controls">
 
       <!-- button Done -->
-        <button class="student_task_done btn btn-default yes" data-task-id="807">
+        <button class="student_task_done btn btn-default yes" data-task-id="746">
           <span class="no"><i class="fa fa-square-o"></i></span>
           <span class="yes"><i class="fa fa-check-square-o"></i></span>
           <span class="pending"><i class="fa fa-spinner fa-pulse"></i></span>
@@ -1298,15 +1063,15 @@ $ sudo apt-get install emacs
         <br>
 
       <!-- button Help! -->
-      <button class="users_done_for_task btn btn-default btn-default" data-task-id="807" data-project-id="206" data-toggle="modal" data-target="#task-807-users-done-modal">
+      <button class="users_done_for_task btn btn-default btn-default" data-task-id="746" data-project-id="1" data-toggle="modal" data-target="#task-746-users-done-modal">
         Help
       </button>
-      <div class="modal fade users-done-modal" id="task-807-users-done-modal" data-task-id="807" data-project-id="206">
+      <div class="modal fade users-done-modal" id="task-746-users-done-modal" data-task-id="746" data-project-id="1">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title">Students who are done with "Doctor"</h4>
+              <h4 class="modal-title">Students who are done with "Never push too much"</h4>
             </div>
             <div class="modal-body">
               <div class="list-group">
@@ -1325,7 +1090,7 @@ $ sudo apt-get install emacs
     </div>
 
   <h4 class="task">
-    8. Doctor
+    5. Never push too much
       <span class="alert alert-info mandatory-optional">
         #advanced
       </span>
@@ -1333,7 +1098,7 @@ $ sudo apt-get install emacs
 
 
   <!-- Progress vs Score -->
-    <div class="task_progress_score_bar" data-task-id="807" data-correction-id="9920">
+    <div class="task_progress_score_bar" data-task-id="746" data-correction-id="9962">
       <div class="task_progress_bar">
         <div class="task_score_bar">
         </div>
@@ -1344,7 +1109,7 @@ $ sudo apt-get install emacs
     </div>
 
 <!-- Task Body -->
-  <p>What is the command to talk to your doctor?</p>
+  <p>Create a <code>.gitignore</code> file and define a rule to never push <code>~</code> files (generated by Emacs). <a href="/rltoken/0ANsyvhObT_TYAToY8-lbA" title="Tips" target="_blank">Tips</a></p>
 
 
   <!-- Task URLs -->
@@ -1352,9 +1117,8 @@ $ sudo apt-get install emacs
   <!-- Github information -->
     <p class="sm-gap"><strong>Repo:</strong></p>
     <ul>
-      <li>GitHub repository: <code>holbertonschool-zero_day</code></li>
-        <li>Directory: <code>0x01-emacs</code></li>
-        <li>File: <code>101-doctor</code></li>
+      <li>GitHub repository: <code>my_first_repository</code></li>
+        <li>File: <code>.gitignore</code></li>
     </ul>
 
 
@@ -1362,20 +1126,20 @@ $ sudo apt-get install emacs
   <div class="student_correction_requests">
 
     <!-- Button test code -->
-      <button class="task_correction_modal btn btn-default " data-task-id="807" data-toggle="modal" data-target="#task-test-correction-807-correction-modal">
+      <button class="task_correction_modal btn btn-default size_two" data-task-id="746" data-toggle="modal" data-target="#task-test-correction-746-correction-modal">
         Check your code?
       </button>
-      <div class="modal fade task_correction_modal" id="task-test-correction-807-correction-modal">
+      <div class="modal fade task_correction_modal" id="task-test-correction-746-correction-modal">
       <div class="modal-dialog">
           <div class="modal-content">
           <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title">Correction of "Doctor"</h4>
+              <h4 class="modal-title">Correction of "Never push too much"</h4>
           </div>
           <div class="modal-body">
             <div class="actions">
                 <center>
-                    <input type="submit" name="commit" value="Start a new test" class="btn btn-primary correction_request_test_admin" data-task-id="807" />
+                    <input type="submit" name="commit" value="Start a new test" class="btn btn-primary correction_request_test_admin" data-task-id="746" />
                     <div class="spinner" >
                         <div class="bounce1"></div>
                         <div class="bounce2"></div>
@@ -1391,6 +1155,9 @@ $ sudo apt-get install emacs
       </div><!-- /.modal-dialog -->
       </div>
 
+      <button class="task_ask_new_correction btn btn-default size_two" data-task-id="746" data-correction-id="9962">
+        Ask a new correction <span class="in_progress_info">: in progress...</span><span class="error_occured_info">: An error occured</span>
+      </button>
 
     <!-- Button containers -->
 
@@ -1414,19 +1181,19 @@ $ sudo apt-get install emacs
     <ul>
 		<li>
 					<strong>Auto QA review:</strong>
-									35.0/35 mandatory
+									20.0/20 mandatory
 													-
-															  5.0/10 optional
+															  2.0/10 optional
 															  	  </li>
 																   <li>
 																     <strong>Altogether:</strong>
 																        100.0% mandatory
 																	         &amp;
-																		    50.0% optional
+																		    20.0% optional
 																		    	    &nbsp;
-																			        <small><em>=&gt; 100.0% + (100.0% of 50.0%) =&gt;</em></small>
+																			        <small><em>=&gt; 100.0% + (100.0% of 20.0%) =&gt;</em></small>
 																						 	  &nbsp;
-																							     <strong>150.0%</strong>
+																							     <strong>120.0%</strong>
 																							      </li>
 																							      </ul>
 </div>
@@ -1442,159 +1209,165 @@ $ sudo apt-get install emacs
           </div>
           <div id="auto-qa" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
             <div class="panel-body">
-			<h4 class="gap">Opening</h4>
-				<ul class="list-group sm-gap">
-							<li class="list-group-item alert alert-success">
-												<strong>
-															   0.0 out of 0 points
-															       	      	</strong>
-																	    - <p>README.md exists and is not empty</p>
+			<h4 class="gap">Create and setup your Git and Github account</h4>
+			    		       <ul class="list-group sm-gap">
+									<li class="list-group-item alert alert-success">
+														<strong>
+															     1.0 out of 1 points
+															     	     	  </strong>
+																	      - <p>Repository <code>my_first_repositoy</code> exists</p>
 
-																	      		   	  </li>
-																				     <li class="list-group-item alert alert-success">
-																				     	 			       <strong>
-																								             0.0 out of 0 points
-																									     	     	  </strong>
-																											      - <p>File is present</p>
+																	      		      				        <p class="sm-gap"><strong>Reason:</strong></p>
+																								       <div class="correction_reason"><p>my_first_repository&nbsp;exists</p></div>
+																								       	      </li>
+																									         <li class="list-group-item alert alert-success">
+																										     			    	   <strong>
+																														         2.0 out of 2 points
+																															     	      </strong>
+																																          - <p>README.md exists</p>
 
-																											      		   </li>
-																													      <li class="list-group-item alert alert-success">
-																													      	  			        <strong>
-																																		      5.0 out of 5 points
-																																		      	      	   </strong>
-																																				       - <p>Verify the command</p>
+																																	    		  </li>
+																																			     <li class="list-group-item alert alert-success">
+																																			     	 			       <strong>
+																																							             2.0 out of 2 points
+																																								     	     	  </strong>
+																																										      - <p>README.md is not empty</p>
 
-																																				       	 	       </li>
-																																						        <h4 class="gap">Saving</h4>
-																																							     <ul class="list-group sm-gap">
-																																							     	 		    <li class="list-group-item alert alert-success">
-																																										    			       	      <strong>
-																																														            0.0 out of 0 points
-																																															    	       	 </strong>
-																																																	     - <p>File is present</p>
+																																										      		     	     <p class="sm-gap"><strong>Reason:</strong></p>
+																																													     	    <div class="correction_reason"><p>Great!&nbsp;your&nbsp;README.md&nbsp;will&nbsp;help&nbsp;everybody</p></div>
+																																														    	   </li>
+																																															    <h4 class="gap">Coding fury road</h4>
+																																															    			   <ul class="list-group sm-gap">
+																																																		       			  <li class="list-group-item alert alert-success">
+																																																					      			     	    <strong>
+																																																									          2.0 out of 2 points
+																																																										      	       </strong>
+																																																											           - <p>Files exist</p>
 
-																																																	       	       	  </li>
-																																																			     <li class="list-group-item alert alert-success">
-																																																			     	 			       <strong>
-																																																							             5.0 out of 5 points
-																																																								     	     	  </strong>
-																																																										      - <p>Verify the command</p>
+																																																												     	       </li>
+																																																													          <li class="list-group-item alert alert-success">
+																																																														      			     	    <strong>
+																																																																		          2.0 out of 2 points
+																																																																			      	       </strong>
+																																																																				           - <p>Files not empty</p>
 
-																																																										      		      </li>
-																																																												       <h4 class="gap">Cutting</h4>
-																																																												       	    <ul class="list-group sm-gap">
-																																																													    			   <li class="list-group-item alert alert-success">
-																																																																       			      	     <strong>
-																																																																				           0.0 out of 0 points
-																																																																					       	      	</strong>
-																																																																							    - <p>File is present</p>
+																																																																					     	      	  </li>
+																																																																							     <li class="list-group-item alert alert-success">
+																																																																							     	 			       <strong>
+																																																																											             1.0 out of 1 points
+																																																																												     	     	  </strong>
+																																																																														      - <p>Right commit message</p>
 
-																																																																							      	      	 </li>
-																																																																									    <li class="list-group-item alert alert-success">
-																																																																									    			       	      <strong>
-																																																																													            5.0 out of 5 points
-																																																																														    	       	 </strong>
-																																																																																     - <p>Verify the command</p>
+																																																																														      		 	  <p class="sm-gap"><strong>Reason:</strong></p>
+																																																																																	         <div class="correction_reason"><p>"I'm&nbsp;starting&nbsp;to&nbsp;code,&nbsp;so&nbsp;cool"&nbsp;commit&nbsp;message&nbsp;found!</p></div>
+																																																																																		        </li>
+																																																																																			 <h4 class="gap">Collaboration is the base of a company</h4>
+																																																																																			     			       <ul class="list-group sm-gap">
+																																																																																						       	   		      <li class="list-group-item alert alert-success">
+																																																																																									      	  			        <strong>
+																																																																																														      0.0 out of 0 points
+																																																																																														      	      	   </strong>
+																																																																																																       - <p>Change branch to <code>update_script</code></p>
 
-																																																																																       		     </li>
-																																																																																		      <h4 class="gap">Pasting</h4>
-																																																																																		      	   <ul class="list-group sm-gap">
-																																																																																			       			  <li class="list-group-item alert alert-success">
-																																																																																						      			     	    <strong>
-																																																																																										          0.0 out of 0 points
-																																																																																											      	       </strong>
-																																																																																												           - <p>File is present</p>
+																																																																																																       	 	   	  </li>
+																																																																																																			     <li class="list-group-item alert alert-success">
+																																																																																																			     	 			       <strong>
+																																																																																																							             2.0 out of 2 points
+																																																																																																								     	     	  </strong>
+																																																																																																										      - <p>Files exist</p>
 
-																																																																																													     	     	</li>
-																																																																																															   <li class="list-group-item alert alert-success">
-																																																																																															       			      	     <strong>
-																																																																																																			           5.0 out of 5 points
-																																																																																																				       	      	</strong>
-																																																																																																						    - <p>Verify the command</p>
+																																																																																																										      		  </li>
+																																																																																																												     <li class="list-group-item alert alert-success">
+																																																																																																												     	 			       <strong>
+																																																																																																																             0.0 out of 0 points
+																																																																																																																	     	     	  </strong>
+																																																																																																																			      - <p>Change branch to <code>master</code></p>
 
-																																																																																																						      		    </li>
-																																																																																																								     <h4 class="gap">Searching</h4>
-																																																																																																								     	  <ul class="list-group sm-gap">
-																																																																																																									      			 <li class="list-group-item alert alert-success">
-																																																																																																												     			    	   <strong>
-																																																																																																																         0.0 out of 0 points
-																																																																																																																	     	      </strong>
-																																																																																																																		          - <p>File is present</p>
+																																																																																																																			      		  	 </li>
+																																																																																																																						    <li class="list-group-item alert alert-success">
+																																																																																																																						    			       	      <strong>
+																																																																																																																										            1.0 out of 1 points
+																																																																																																																											    	       	 </strong>
+																																																																																																																													     - <p>Files not empty</p>
 
-																																																																																																																			    	       </li>
-																																																																																																																				          <li class="list-group-item alert alert-success">
-																																																																																																																					      			     	    <strong>
-																																																																																																																									          5.0 out of 5 points
-																																																																																																																										      	       </strong>
-																																																																																																																											           - <p>Verify the command</p>
+																																																																																																																													       		    </li>
+																																																																																																																															       <li class="list-group-item alert alert-success">
+																																																																																																																															       	   			  	 <strong>
+																																																																																																																																				       2.0 out of 2 points
+																																																																																																																																				       	       	    </strong>
+																																																																																																																																						        - <p>Commit message &ldquo;Hot fix&rdquo; available</p>
 
-																																																																																																																												     	       	   </li>
-																																																																																																																														    <h4 class="gap">Undoing</h4>
-																																																																																																																														    	 <ul class="list-group sm-gap">
-																																																																																																																															     		        <li class="list-group-item alert alert-success">
-																																																																																																																																		    			   	  <strong>
-																																																																																																																																						        0.0 out of 0 points
-																																																																																																																																							    	     </strong>
-																																																																																																																																								         - <p>File is present</p>
+																																																																																																																																							  	    	    	       		  <p class="sm-gap"><strong>Reason:</strong></p>
+																																																																																																																																												         <div class="correction_reason"><p>"Hot&nbsp;fix"&nbsp;commit&nbsp;message&nbsp;found!</p></div>
+																																																																																																																																													        </li>
+																																																																																																																																														 <h4 class="gap">Collaboration: be up to date</h4>
+																																																																																																																																														     				<ul class="list-group sm-gap">
+																																																																																																																																																		    		       <li class="list-group-item alert alert-success">
+																																																																																																																																																				       	   			  	 <strong>
+																																																																																																																																																									       1.0 out of 1 points
+																																																																																																																																																									       	       	    </strong>
+																																																																																																																																																											        - <p>File <code>up_to_date</code> exists</p>
 
-																																																																																																																																									   	      </li>
-																																																																																																																																										         <li class="list-group-item alert alert-success">
-																																																																																																																																											     			    	   <strong>
-																																																																																																																																															         5.0 out of 5 points
-																																																																																																																																																     	      </strong>
-																																																																																																																																																	          - <p>Verify the command</p>
+																																																																																																																																																												  	  			  </li>
+																																																																																																																																																																     <li class="list-group-item alert alert-success">
+																																																																																																																																																																     	 			       <strong>
+																																																																																																																																																																				             4.0 out of 4 points
+																																																																																																																																																																					     	     	  </strong>
+																																																																																																																																																																							      - <p>File <code>up_to_date</code> has the right content</p>
 
-																																																																																																																																																		    	      	  </li>
-																																																																																																																																																				   <h4 class="gap">Quitting</h4>
-																																																																																																																																																				        <ul class="list-group sm-gap">
-																																																																																																																																																					    		       <li class="list-group-item alert alert-success">
-																																																																																																																																																							       	   			  	 <strong>
-																																																																																																																																																												       0.0 out of 0 points
-																																																																																																																																																												       	       	    </strong>
-																																																																																																																																																														        - <p>File is present</p>
+																																																																																																																																																																							      					</li>
+																																																																																																																																																																												 <h4 class="gap">HAAA what did you do???</h4>
+																																																																																																																																																																												     		      <ul class="list-group sm-gap">
+																																																																																																																																																																														      	  		     <li class="list-group-item alert alert-success">
+																																																																																																																																																																																	     	 			       <strong>
+																																																																																																																																																																																					             0.0 out of 0 points
+																																																																																																																																																																																						     	     	  </strong>
+																																																																																																																																																																																								      - <p>Files exist</p>
 
-																																																																																																																																																															  	     </li>
-																																																																																																																																																																        <li class="list-group-item alert alert-success">
-																																																																																																																																																																	    			   	  <strong>
-																																																																																																																																																																					        5.0 out of 5 points
-																																																																																																																																																																						    	     </strong>
-																																																																																																																																																																							         - <p>Verify the command</p>
+																																																																																																																																																																																								      		  </li>
+																																																																																																																																																																																										     <li class="list-group-item alert alert-success">
+																																																																																																																																																																																										     	 			       <strong>
+																																																																																																																																																																																														             2.0 out of 2 points
+																																																																																																																																																																																															     	     	  </strong>
+																																																																																																																																																																																																	      - <p>Content of <code>bash/holberton</code> is updated</p>
 
-																																																																																																																																																																								   	     	 </li>
-																																																																																																																																																																										  <h4 class="gap">Tetris</h4>
-																																																																																																																																																																										      <h5>New correction at 50.0%</h5>
-																																																																																																																																																																										      	      		 <ul class="list-group sm-gap">
-																																																																																																																																																																													     		        <li class="list-group-item alert alert-success">
-																																																																																																																																																																																    			   	  <strong>
-																																																																																																																																																																																				        0.0 out of 0 points
-																																																																																																																																																																																					    	     </strong>
-																																																																																																																																																																																						         - <p>File is present</p>
+																																																																																																																																																																																																	      		      </li>
+																																																																																																																																																																																																			         <li class="list-group-item alert alert-danger">
+																																																																																																																																																																																																				     			    	   <strong>
+																																																																																																																																																																																																								         0.0 out of 2 points
+																																																																																																																																																																																																									     	      </strong>
+																																																																																																																																																																																																										          - <p>Content of <code>bash/school</code> is updated</p>
 
-																																																																																																																																																																																							   	      </li>
-																																																																																																																																																																																								         <li class="list-group-item alert alert-success">
-																																																																																																																																																																																									     			    	   <strong>
-																																																																																																																																																																																													         2.5 out of 5 points
-																																																																																																																																																																																														     	      </strong>
-																																																																																																																																																																																															          - <p>Verify the command</p>
+																																																																																																																																																																																																											    	       	  			      <p class="sm-gap"><strong>Reason:</strong></p>
+																																																																																																																																																																																																																      	     <div class="correction_reason"><p>bash/school&nbsp;doesn't&nbsp;contain:&nbsp;["The&nbsp;school&nbsp;is&nbsp;open!"]</p></div>
+																																																																																																																																																																																																																	     	    </li>
+																																																																																																																																																																																																																		       <li class="list-group-item alert alert-danger">
+																																																																																																																																																																																																																		       	   			  	 <strong>
+																																																																																																																																																																																																																							       0.0 out of 1 points
+																																																																																																																																																																																																																							       	       	    </strong>
+																																																																																																																																																																																																																									        - <p>Folder deleted</p>
 
-																																																																																																																																																																																																    	      	  </li>
-																																																																																																																																																																																																		   <h4 class="gap">Doctor</h4>
-																																																																																																																																																																																																		       <h5>New correction at 50.0%</h5>
-																																																																																																																																																																																																		       	       		  <ul class="list-group sm-gap">
-																																																																																																																																																																																																					      			 <li class="list-group-item alert alert-success">
-																																																																																																																																																																																																								     			    	   <strong>
-																																																																																																																																																																																																												         0.0 out of 0 points
-																																																																																																																																																																																																													     	      </strong>
-																																																																																																																																																																																																														          - <p>File is present</p>
+																																																																																																																																																																																																																										  	     </li>
+																																																																																																																																																																																																																											      <h4 class="gap">Never push too much</h4>
+																																																																																																																																																																																																																											      	  		    <ul class="list-group sm-gap">
+																																																																																																																																																																																																																														    			   <li class="list-group-item alert alert-danger">
+																																																																																																																																																																																																																																	       			      	     <strong>
+																																																																																																																																																																																																																																					           0.0 out of 1 points
+																																																																																																																																																																																																																																						       	      	</strong>
+																																																																																																																																																																																																																																								    - <p>File <code>.gitignore</code> exists </p>
 
-																																																																																																																																																																																																															    	       </li>
-																																																																																																																																																																																																																          <li class="list-group-item alert alert-success">
-																																																																																																																																																																																																																	      			     	    <strong>
-																																																																																																																																																																																																																					          2.5 out of 5 points
-																																																																																																																																																																																																																						      	       </strong>
-																																																																																																																																																																																																																							           - <p>Verify the command</p>
+																																																																																																																																																																																																																																								      	      			      	      <p class="sm-gap"><strong>Reason:</strong></p>
+																																																																																																																																																																																																																																													      	     <div class="correction_reason"><p>Missing:&nbsp;.gitignore</p></div>
+																																																																																																																																																																																																																																														     	    </li>
+																																																																																																																																																																																																																																															       <li class="list-group-item alert alert-danger">
+																																																																																																																																																																																																																																															       	   			  	 <strong>
+																																																																																																																																																																																																																																																				       0.0 out of 4 points
+																																																																																																																																																																																																																																																				       	       	    </strong>
+																																																																																																																																																																																																																																																						        - <p><code>.gitignore</code> contains <code>~</code></p>
 
-																																																																																																																																																																																																																								     	       	   </li>
+																																																																																																																																																																																																																																																							  			     	        <p class="sm-gap"><strong>Reason:</strong></p>
+																																																																																																																																																																																																																																																												       <div class="correction_reason"><p>Previous&nbsp;check&nbsp;failed</p></div>
+																																																																																																																																																																																																																																																												       	      </li>
 
             </div>
           </div>
